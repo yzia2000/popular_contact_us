@@ -1,0 +1,428 @@
+body {
+	font-family: Arial, sans-serif;	
+	margin: 0px;
+}
+
+
+.top-header nav ul {
+	list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #e9e9ea;
+	
+}
+
+.top-header nav ul li:first-child {
+	background-image: url(images/star.png);
+	background-repeat: no-repeat;
+	background-position: 11px center;
+	padding-left: 35px;
+}
+
+.top-header nav ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
+
+
+.top-header nav ul li {
+	float: left;
+	padding-left: 13px;
+	padding-right: 13px;
+	border-right: 1px solid black;
+	margin: 10px 0px;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+
+.top-header nav ul li:first-child, .top-header nav ul li:nth-child(2) {
+	border: none;
+}
+
+.dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
+
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+	right: 0px;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 2;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.top-header a:link, .top-header a:visited, .header a:link,  .header a:visited, .path a:link, .path a:visited, 
+.cards ul li a:link, .cards ul li a:visited, .cards h6 a:link, .cards h6 a:visited {
+	color: black;
+	text-decoration: none;
+}
+
+.top-header a:hover, .header a:hover, .path a:hover, .cards a:hover {
+	color: black;
+	text-decoration: underline;
+}
+
+.container .cards a:hover {
+	text-decoration: underline;
+}
+
+.header {
+	height: 100px;
+	overflow: hidden;
+}
+
+.header img {
+	float: left;
+}
+
+.advance {
+	float: right;
+	margin-top: 42px;
+}
+
+.cart {
+	padding: 13px 41px 13px 49px;
+	float: right;
+	margin: 30px 52px 30px 30px;
+	background: #E6E6E7 url(images/click.png) no-repeat 153px center;	
+}
+
+.cart a:link, .cart a:visited {
+	color: #e65a24;
+}
+
+.navbar {
+	clear: left;
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #D21F26;
+}
+
+.navbar ul li {
+	float: left;
+}
+
+.navbar ul li a {
+	display: block;
+	padding: 13px 10px;
+	margin-right: 46px;
+	
+}
+
+.navbar a:link, .navbar a:visited {
+	text-decoration: none;
+	color: #fff;
+}
+
+.navbar ul li:first-child a{
+	margin-left: 20px;
+}
+
+.navbar ul li:last-child a{
+	margin-right: 20px;
+}
+
+.active, .navbar ul li a:hover {
+	background-color: #B81E2D;
+}
+
+.path {
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+.path ul li {
+	display: inline;
+	text-transform: uppercase;
+	font-size: 12px;
+	padding-left: 21px;
+	padding-top: 7px;
+	padding-right: 7px;
+	margin-right: 10px;
+	padding-bottom: 7px;
+	background: url(images/arrow.png) center left;
+	background-repeat: no-repeat;
+	
+}
+
+.cards {
+	width: 188px;
+	border: 2px #88898B solid;
+	text-align: center;
+}
+
+.cards h4{
+	font-size: 14px;
+	color: #ff0000;
+	padding: 10px 2px;
+	padding-top: 7px;
+	border-bottom: 2px #88898B solid;
+}
+
+.cards h5 {
+	font-size: 16px;
+	color: #666;
+	margin: 0px;
+}
+
+.click {
+	font-size: 11px;
+	color: #4D4D4D;
+	padding-left: 7px;
+}
+
+.cards p, .cards ul li, .cards ul{
+	text-align: left;
+}
+
+.cards ul {
+	list-style-image: url(images/arrow2.png);
+}
+
+.cards ul li {
+	font-size: 12px;
+	line-height: 1.9em;
+	font-weight: bold;
+}
+
+textarea {
+	width: 435px;
+	height: 173px;
+}
+
+input[type="text"], input[type="tel"], input[type="email"] {
+	width: 435px;
+	height: 32px;
+} 
+
+.sign-renew {
+	border-bottom: 2px #88898B solid;
+}
+
+.cards h6 {
+	border-bottom: 2px #88898B solid;
+	padding: 23px 7px;
+	padding-left: 31px;
+	margin: 0;
+	text-align: left;
+	font-size: 14px;
+	font-weight: lighter;
+}
+
+.cards .active {
+	background: none;
+}
+
+.cards .active a:link, .cards .active a:visited {
+	color: #F00;
+}
+
+.container {
+	padding: 40px;
+	padding-top: 0;
+}
+
+.contact-us h2 {
+	font-size: 24px;
+	margin: 20px 15px;
+	text-transform: uppercase;
+}
+
+.contact-form {
+	border: 1px #cccccc solid;
+	width: 950px;
+}
+
+.contact-details {
+	padding-top: 24px;
+	margin-top: 11px;
+	border-top: 12px #ccc solid;
+	padding-left: 52px;
+}
+
+.tableContainer {
+	display: table;
+	border-spacing: 14px;
+}
+
+.tableRow {
+	display: table-row;
+}
+
+.heading {
+	display: table-cell;
+	color: #4D4D4D;
+	font-size: 14px;
+	font-weight: bold;
+	vertical-align: top;
+}
+
+.value {
+	display: table-cell;
+	color: #999;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+form {
+	color: #999;
+	font-size: 12px;
+	border-top: #999 1px solid;
+	margin: 50px;
+	padding: 0;
+}
+
+input[type="submit"], input[type="reset"] {
+	background-color: #4D4D4D;
+	height: 40px;
+	width: 109px;
+	color: white;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+input[type="reset"] {
+	background-color: #EF233F;
+}
+
+.cards {
+	float: left;
+	margin: 20px;
+}
+
+.contact-us {
+	float: left;
+	margin-bottom: 132px;
+}
+
+.bottom-nav {
+	clear: both;
+}
+
+.bottom-nav ul {
+	list-style-type: none;
+}
+
+.bottom-nav ul li {
+	display: inline-block;
+	margin: 10px;
+	text-transform: uppercase;
+}
+
+.bottom-nav ul li a:link, .bottom-nav ul li a:visited {
+	color: #EC5A24;
+	font-size: 12px;
+	text-decoration: none;
+}
+
+.bottom-nav img {
+	float: left;
+}
+
+.label {
+	position: relative;
+	top: 28px;
+}
+
+.bottom-nav {
+	border-top: #312D2E 1px solid;
+	border-bottom: #312D2E 1px solid;
+	padding-bottom: 15px;
+}
+
+.news-letter {
+	overflow: hidden;
+	background-color: #5D5D5D;
+	margin: 20px 0px;
+	font-size: 14px;
+	color: white;
+	padding: 1px 180px 1px 56px;
+}
+
+
+.subscribe {
+	margin-left: 185px;
+}
+
+input[name="email-sub"] {
+	width: 199px;
+	height: 29px;
+}
+
+input[name="subscribe"] {
+	width: 87px;
+	height: 27px;
+	font-size: 11px;
+	background-color: black;
+}
+
+.footer {
+	font-size: 18px;
+	font-weight: bold;
+	text-transform: uppercase;
+	margin-bottom: 70px;
+}
+
+footer a:link, footer a:visited {
+	text-decoration: none;
+	color: #666;
+}
+
+.footer ul {
+	list-style-type: none;
+}
+
+.footer li {
+	float: left;
+	margin-right: 35px;
+}
+
+
+.footer li a:hover {
+	text-decoration: underline;
+}
+
+
+.base-footer {
+	clear: both;
+	font-weight: bold;
+	font-size: 15px;
+	color: #666;
+	margin: 20px 40px;
+}
+
+.base-footer img {
+	float: right;
+}

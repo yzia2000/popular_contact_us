@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Check Out - Delivery Details</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="checkout.css">
+</head>
+<body>
+	<header class="top-header">
+		<nav>
+			<ul>
+				<li><a href="#">bookmark</a></li>
+				<li class="dropdown" style="float:right">
+					<a href="#" class="dropbtn">language</a>
+					<div class="dropdown-content">
+     					<a href="#">Language 1</a>
+     	 				<a href="#">Language 2</a>
+      					<a href="#">Language 3</a>
+   					</div>
+				</li>
+				<li style="float:right"><a href="#">customer service</a></li>
+				<li style="float:right"><a href="#">first time purchase</a></li>
+				<li style="float:right"><a href="#">first time purchase</a></li>
+				<li style="float:right"><a href="#">sign in</a></li>
+				<li style="float:right">Hi, welcome to popular !</li>
+			</ul>
+		</nav>
+	</header>
+
+	<header class="header">
+		<img src="images/logo.png" alt="Popular Online - Your Trusted Bookstore">
+
+		<!-- Build your search bar here -->
+		<span class="cart"><a href="#">Shopping cart</a></span>		
+		<a href="#" class="advance">Advance Search</a>
+	</header>
+
+	<nav class="navbar">	
+		<ul>
+			<li><a href="#">Home</a></li>
+			<li><a href="#">Malaysia Singapore Pavilion</a></li>
+			<li><a href="#">Pre-Order</a></li>
+			<li><a href="#">Top 100</a></li>
+			<li><a href="#">Category Navigation</a></li>
+			<li><a href="#">Customer Order</a></li>
+			<li><a href="#">Popular Member</a></li>
+		</ul>
+	</nav>
+	<div class="container">
+		<form>
+		<div class="tableContainer">
+		<div class="tableRow">
+			<section class="info">
+				<div id="bill-info">
+					<span class="sr-no">1</span>
+					<h3>Billing Information</h3>
+					<p>
+						<select name="bill" id="bill">
+							<option value="ch1">---Choice1---</option>
+							<option value="ch2">---Choice2---</option>
+							<option value="ch3">---Choice3---</option>
+						</select>
+					<p>
+						<a href="#" class="add-detail">add a new address</a>
+					</p>
+				</div>
+				
+				<div id="shipping-method">
+					<span class="sr-no">2</span>
+					<h3>Shipping Method</h3>
+					<p>
+						Choose shipping method : <br>
+						<input type="radio" name="shipping-method" value="home" checked> Home Delivery <br>
+						<input type="radio" name="shipping-method" value="store"> Store Pickup <br>
+						<select name="store" id="store">
+							<option value="ch0">Select Store</option>
+							<option value="ch1">---Choice1---</option>
+							<option value="ch2">---Choice2---</option>
+						</select>
+					</p>
+					<p>
+						<a href="#" class="add-detail">add a new address</a>
+					</p>
+					
+					<p>
+						Split Delivery Option <a href="#"><img src="images/info.gif" alt="Click for info about split delivery" title="Some of the items you bought are currently out of stock and needed to be transferred from local vendors / imported from overseas.We will deliver all theitems to you once we back have received all of them. You can also select 'Split Delivery' if you wish to receive those items that are already available in advance.(Additional delivery charges needed)"></a> <br>
+						<input type="radio" name="split" value="home"> Not Split <br>
+						<input type="radio" name="split" value="store" checked> 2 Split Delivery <br>
+					</p>
+				</div>
+
+			</section>
+			<section class="info">
+				<div id="evoucher">
+					<span class="sr-no">4</span>
+					<h3>eVoucher</h3>
+					<p>
+						<input type="text" name="voucher-code" value="">
+					</p>
+					<p>
+						<a href="#" class="add-detail">apply voucher</a>
+					</p>
+				</div>
+
+				<div id="promotion">
+					<span class="sr-no">5</span>
+					<h3>Promotion Code</h3>
+
+					<p>
+						<input type="text" name="promotion-code" value="">
+					</p>
+					<p>
+						<a href="#" class="add-detail">apply code</a>
+					</p>
+				</div>
+
+				<div id="payment">
+					<span class="sr-no">6</span>
+					<h3>Payment Method</h3>
+					<p>
+						<input type="radio" name="payment-method" value="home"> Credit/Debit Card <br>
+						<input type="radio" name="payment-method" value="store"> Online Banking <br>
+					</p>
+				</div>
+			</section>
+
+			<section class="info">
+				<div id="review">
+				<span class="sr-no">7</span>
+				<h3>Review Your Order</h3>
+				<table>
+					<tr>
+						<th>Items</th>
+						<th>Quantity</th>
+						<th>Total Price</th>
+					</tr>
+					<tr>
+						<td>1) WINE A TASTING CO...</td>
+						<td>1</td>
+						<th>RM 85.00</th>
+					</tr>
+					<tr>
+						<td>2) Feel Real Goo...</td>
+						<td>1</td>
+						<th>RM 25.00</th>
+					</tr>
+					<tr>
+						<td>3) Vampire Academy -...</td>
+						<td>1</td>
+						<th>RM 79.00</th>
+					</tr>
+					<tr>
+						<td colspan="2" class="price-heading" style="text-align: right">Subtotal</td>
+						<td class="price">RM 189.00</td>
+					</tr>
+					<tr>
+						<td colspan="2" class="price-heading" style="text-align: right">Shipping &amp; Handling (Local Delivery)</td>
+						<td class="price">RM 19.08</td>
+					</tr>
+					<tr>
+						<td colspan="2" class="price-heading" style="text-align: right; font-weight: bold">Grand Total</td>
+						<td class="price">RM 208.08</td>
+					</tr>
+					<tr>
+						<td colspan="2" class="price-heading" style="text-align: right; font-weight: bold">GST 6%</td>
+						<td class="price">RM 11.78</td>
+					</tr>
+				</table>
+				</div>
+
+				<p id="terms">
+					<input type="checkbox" name="terms-accepted"> I accept the <a href="#">Terms and Conditions</a>
+				</p>
+
+				<input type="submit" name="place-order" value="PLACE ORDER">
+			</section>
+		</div>
+		</div>
+
+		<div id="d-charge">
+					<span class="sr-no">3</span>
+					<h3>Delivery Day and Charge</h3>
+					<div class="tableContainer">
+						<div class="tableRow">
+							<p>First Delivery</p>
+							<p>3 Business Days (RM6.36)</p>	
+						</div>
+						<div class="tableRow">
+							<p>Second Delivery</p>
+							<p>20 Business Days (RM6.36)</p>
+						</div>
+					</div>
+				</div>
+		</form>
+
+		<div class="bottom-nav">
+		<nav>
+		<ul>
+			<li>
+				<p><a href="#"><img src="images/how.gif" alt="How to buy image"><span class="label">How to buy</span></a></p>
+			</li>
+			<li>
+				<p><a href="#"><img src="images/card.gif" alt="Card Image"><span class="label">payment methods</span></a></p>
+			</li>
+			<li>
+				<p><a href="#"><img src="images/search.gif" alt="Track order image"><span class="label">order tracking</span></a></p>
+			</li>
+			<li>
+				<p><a href="#"><img src="images/home.gif" alt="Delivery service image"><span class="label">delivery service</span></a></p>
+			</li>
+			<li>
+				<p><a href="#"><img src="images/r.gif" alt="returns image"><span class="label">returns &amp; replacements</span></a></p>
+			</li>
+			<li>
+				<p><a href="#"><img src="images/faq.gif" alt="faq image"><span class="label">faq</span></a></p>
+			</li>
+			<li>
+				<p><a href="#"><img src="images/mail.gif" alt="customer service image"><span class="label">customer service</span></a></p>
+			</li>
+		</ul>
+		</nav>
+	</div>
+
+	<div class="news-letter">
+		<p>SUBSCRIBE TO OUR NEWSLETTER TO  RECEIVE UPDATE &amp; OFFERS!
+			<span class="subscribe">
+				<input type="email" name="email-sub" placeholder="Enter Your Email Address">
+				<input type="submit" name="subscribe" value="SUBSCRIBE">
+			</span>
+		</p>
+	</div>
+
+	<footer class="footer">
+		<nav>
+			<ul>
+				<li><a href="#">about us</a></li>
+				<li><a href="#">privacy policy</a></li>
+				<li><a href="#">popular outlet</a></li>
+				<li><a href="#">popular facebook</a></li>
+			</ul>
+		</nav>
+		<img src="images/credit-card.png" alt="credit card image">		
+	</footer>
+	<footer class="base-footer">
+		Magento Templates &copy; POPULAR Malaysia. All Rights Reserved
+	</footer>
+	</div>
+</body>
+</html>
